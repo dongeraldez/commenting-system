@@ -1,0 +1,60 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mongoose' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'mongoose', null ]
+6 verbose cache add name=undefined spec="mongoose" args=["mongoose",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'mongoose',
+7 verbose parsed url   path: 'mongoose',
+7 verbose parsed url   href: 'mongoose' }
+8 silly lockFile f25dbdd3-mongoose mongoose
+9 verbose lock mongoose C:\Users\cisco\AppData\Roaming\npm-cache\f25dbdd3-mongoose.lock
+10 silly lockFile f25dbdd3-mongoose mongoose
+11 silly lockFile f25dbdd3-mongoose mongoose
+12 verbose addNamed [ 'mongoose', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 3bb0fc31-mongoose mongoose@
+15 verbose lock mongoose@ C:\Users\cisco\AppData\Roaming\npm-cache\3bb0fc31-mongoose.lock
+16 silly addNameRange { name: 'mongoose', range: '*', hasData: false }
+17 verbose url raw mongoose
+18 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+19 verbose url resolved https://registry.npmjs.org/mongoose
+20 info trying registry request attempt 1 at 21:01:35
+21 http GET https://registry.npmjs.org/mongoose
+22 info retry will retry, error on last attempt: Error: read ECONNRESET
+23 info trying registry request attempt 2 at 21:01:46
+24 http GET https://registry.npmjs.org/mongoose
+25 info retry will retry, error on last attempt: Error: read ECONNRESET
+26 info trying registry request attempt 3 at 21:02:47
+27 http GET https://registry.npmjs.org/mongoose
+28 silly lockFile 3bb0fc31-mongoose mongoose@
+29 silly lockFile 3bb0fc31-mongoose mongoose@
+30 error Error: read ECONNRESET
+30 error     at errnoException (net.js:901:11)
+30 error     at TCP.onread (net.js:556:19)
+31 error If you need help, you may report this log at:
+31 error     <http://github.com/isaacs/npm/issues>
+31 error or email it to:
+31 error     <npm-@googlegroups.com>
+32 error System Windows_NT 6.1.7601
+33 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mongoose"
+34 error cwd C:\xampp\htdocs\commenting-system
+35 error node -v v0.10.15
+36 error npm -v 1.3.5
+37 error syscall read
+38 error code ECONNRESET
+39 error errno ECONNRESET
+40 verbose exit [ 1, true ]
